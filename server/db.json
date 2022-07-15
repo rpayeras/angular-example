@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 8
     },
     {
       "id": 3,
@@ -73,7 +73,7 @@
       "price": 17,
       "description": "In this book, the reader will be able to focus on one concept of Angular in deep.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 8
     },
     {
       "id": 4,
@@ -81,7 +81,7 @@
       "price": 19,
       "description": "Ideal for Android smartphones and tablets, and MIL cameras. SanDisk Memory Zone app for easy file management (Download and Installation Required).",
       "categoryId": 2,
-      "stock": 10
+      "stock": 8
     },
     {
       "id": 5,
@@ -124,6 +124,63 @@
       "shippingAddress": "Av. de la Granvia de Hospitalet, 115",
       "city": "Barcelona",
       "pickup": true
+    },
+    {
+      "name": "Testuser",
+      "store": "",
+      "date": "7/15/2022",
+      "pickup": false,
+      "id": 2
+    },
+    {
+      "name": "Testuser",
+      "store": "",
+      "date": "7/15/2022",
+      "pickup": false,
+      "id": 3
+    },
+    {
+      "name": "Testuser",
+      "store": 2,
+      "date": "7/15/2022",
+      "pickup": false,
+      "id": 4
+    },
+    {
+      "name": "Testuser",
+      "store": "",
+      "date": "7/15/2022",
+      "pickup": false,
+      "id": 5
+    },
+    {
+      "name": "Testuser",
+      "shippingAddress": "test addr",
+      "city": "tetete",
+      "date": "7/15/2022",
+      "pickup": true,
+      "id": 6
+    },
+    {
+      "name": "Testuser",
+      "store": 5,
+      "date": "7/15/2022",
+      "pickup": false,
+      "id": 7
+    },
+    {
+      "name": "Testuser",
+      "store": 2,
+      "date": "7/15/2022",
+      "pickup": false,
+      "id": 8
+    },
+    {
+      "name": "Testuser",
+      "store": 2,
+      "date": "7/15/2022",
+      "pickup": false,
+      "id": 9
     }
   ],
   "detailsOrders": [
@@ -132,6 +189,90 @@
       "orderId": 1,
       "quantity": 10,
       "productName": "Product name"
-    }
+    },
+    [
+      {
+        "productId": 2,
+        "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+        "quantity": 2,
+        "orderId": 3
+      },
+      {
+        "productId": 1,
+        "productName": "Essential TypeScript 4: From Beginner to Pro",
+        "quantity": 2,
+        "orderId": 3
+      }
+    ],
+    [
+      {
+        "productId": 1,
+        "productName": "Essential TypeScript 4: From Beginner to Pro",
+        "quantity": 1,
+        "orderId": 4
+      },
+      {
+        "productId": 2,
+        "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+        "quantity": 1,
+        "orderId": 4
+      },
+      {
+        "productId": 4,
+        "productName": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
+        "quantity": 1,
+        "orderId": 4
+      }
+    ],
+    [
+      {
+        "productId": 1,
+        "productName": "Essential TypeScript 4: From Beginner to Pro",
+        "quantity": 1,
+        "orderId": 5
+      },
+      {
+        "productId": 2,
+        "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+        "quantity": 1,
+        "orderId": 5
+      },
+      {
+        "productId": 4,
+        "productName": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
+        "quantity": 1,
+        "orderId": 5
+      }
+    ],
+    [
+      {
+        "productId": 2,
+        "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+        "quantity": 1,
+        "orderId": 6
+      }
+    ],
+    [
+      {
+        "productId": 2,
+        "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+        "quantity": 1,
+        "orderId": 7
+      },
+      {
+        "productId": 1,
+        "productName": "Essential TypeScript 4: From Beginner to Pro",
+        "quantity": 1,
+        "orderId": 7
+      },
+      {
+        "productId": 3,
+        "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+        "quantity": 1,
+        "orderId": 7
+      }
+    ],
+    [],
+    []
   ]
 }
