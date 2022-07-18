@@ -40,6 +40,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   ng g m pages/products -m=app --route products
 ```
 
+## Generate service
+
+```bash
+ng g service pages/products/services/products
+```
+
 # Start server
 
 ```bash
